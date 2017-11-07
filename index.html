@@ -37,7 +37,31 @@
 <meta name="msapplication-TileImage" content="/ms-icon-144x144.png">
 <meta name="theme-color" content="#ffffff">
 
-
+<style type="text/css">
+            .syotimer{
+            text-align: center;
+            margin: 30px auto 0;
+            padding: 0 0 10px;
+        }
+        .syotimer-cell{
+            display: inline-block;
+         margin: 0 3px;   
+         width: 77px;
+            background: url(images/timer.png) no-repeat 0 0;
+        }
+        .syotimer-cell__value{
+            font-size: 35px;
+            color: #80a3ca;
+            height: 81px;
+            line-height: 81px;
+            margin: 0 0 5px;
+        }
+        .syotimer-cell__unit{
+            font-family: Arial, serif;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    </style>
 <script type='text/javascript'>
 $(document).ready(function(){ 
   $(window).scroll(function(){ 
@@ -97,6 +121,31 @@ opacity:1;filter:"alpha(opacity=100)";
         jQuery(".hameid-loader-overlay").fadeOut(500);
     });
 </script>
+    <style type="text/css">
+            .syotimer{
+            text-align: center;
+            margin: 30px auto 0;
+            padding: 0 0 10px;
+        }
+        .syotimer-cell{
+            display: inline-block;
+         margin: 0 3px;   
+         width: 77px;
+            background: url(img/time/4.png) no-repeat 0 0;
+        }
+        .syotimer-cell__value{
+            font-size: 35px;
+            color: #80a3ca;
+            height: 81px;
+            line-height: 81px;
+            margin: 0 0 5px;
+        }
+        .syotimer-cell__unit{
+            font-family: Arial, serif;
+            font-size: 12px;
+            text-transform: uppercase;
+        }
+    </style>
 </head>
 <body style="background-image:url(img/backdrop/44.jpg)">
 <audio autoplay>
@@ -120,7 +169,7 @@ opacity:1;filter:"alpha(opacity=100)";
 <div style="background-image:url(img/backdrop/44.jpg);background-attachment:fixed;" class="row">
     <div class="col-sm-12"> 
     <center><h3></h3></center>
-    <img src="img/invite/12.jpg" style="width:100%;border-radius:75px 5px 75px 5px;">
+    <img src="img/invite/11.jpg" style="width:100%;border-radius:75px 5px 75px 5px;">
     <center><h3></h3></center>
     </div>
 </div>  
@@ -188,7 +237,18 @@ opacity:1;filter:"alpha(opacity=100)";
           <div class='wrap' ng-app='app'>
             <div class='time-to'>
             <h2 style="color:white;font-family:felipa;font-size:40px;text-shadow: 2px 2px 25px red;">Block Your Calendar For This Most Cherished Movement...</h2>
-            <span style="color:white;font-family:felipa;font-size:40px;text-shadow: 2px 2px 25px red;" countdown='' date='November 2, 2017 7:30:00'>&nbsp;</span><hr>
+         <hr>    <div class="row">
+        <div>
+
+            <div style="color:white;" id="simple-timer"></div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="libs/jquery.1.7.2.js"></script>
+    <script type="text/javascript" src="build/jquery.syotimer.min.js"></script>
+
+    <script type="text/javascript" src="js/service.js"></script>
+    <script type="text/javascript" src="js/syotimer.examples.js"></script>
             </div>
           </div>
           <script src='js/angular.min.js'></script>
