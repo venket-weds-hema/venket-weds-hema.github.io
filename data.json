@@ -1,9 +1,9 @@
 {
   "title": "Wedding invitation",
-  "mapData": "https://www.google.com/maps/place/Shri+Archana+Mahal/@13.106173,80.108945,14z/data=!4m5!3m4!1s0x0:0x1a20896f0ccb3283!8m2!3d13.106173!4d80.1089445?hl=en-US",
-  "head_name": "Jaya weds Hari",
-  "date": "24.02.2018",
-  "time": "19.30",
+  "mapData": "https://www.google.com/maps/dir//13.106173,80.1089445/@13.106173,80.108945,14z?hl=en-US",
+  "head_name": "Hema weds Venket",
+  "date": "02.11.2017",
+  "time": "6.30",
   "photoUrl": "portrait.jpg",
-  "url": "jaya-weds-hari.github.io"
+  "url": "venket-weds-hema.github.io"
 }
